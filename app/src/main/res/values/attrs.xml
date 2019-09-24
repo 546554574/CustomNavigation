@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="myNavigation">
+        <attr name="default_text_color" format="color"/>
+        <attr name="pre_text_color" format="color"/>
+        <attr name="text_size" format="integer"/>
+        <attr name="default_color" format="color"/>
+        <attr name="pre_color" format="color"/>
+    </declare-styleable>
+
+</resources>

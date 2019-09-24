@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+            android:id="@+id/editLv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:visibility="visible">
+
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/allItemRlv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_lv_bg">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <LinearLayout
+                android:id="@+id/showItemLv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/default_lv_bg"
+                android:layout_alignParentBottom="true"
+                android:padding="@dimen/dp_10">
+
+            <android.support.v7.widget.RecyclerView
+                    android:id="@+id/showItemRlv"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
